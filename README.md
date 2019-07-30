@@ -41,25 +41,27 @@ You may also need to download the Glove word embedding
 * [Glove Embedding](https://nlp.stanford.edu/projects/glove/) - Used as the universal word embedding.
 
 ### Usage
+First, you may need to put the glove embedding to the root folder.  
 
-First, you need to put all of your text data (.txt format) to the "data" folder. 
+Then, you need to put all of your text data (.txt format) to the "data" folder. 
 
-If you only have one domain, just put all of the .txt files in the "data" folder.
+	If you only have one domain, just put all of those .txt files in the "data" folder.
 
-If you have two domains, you may need to put each domain's texts in the "data/train_two/first" and "data/train_two/second". 
+	If you have two domains, you may need to put each domain's texts in the "data/train_two/first" and "data/train_two/second". 
+	
+Parameters can be changed in the "constant.py"  
 
-All of the parameters can be changed in the "constant.py"
-
-After setting up your parameters, you can run the code using this one-line code:
+After setting up your parameters, you can run the code using this one-line code:  
 
 ```
 python3 main.py
 ```
 
-The output will be generated in the "outputs" folder. 
+The output will be generated in the "outputs" folder.  
 
 
 ### Parameters 
+The "constant.py" contains all of the parameters you may need to set up.  
 
 
 
