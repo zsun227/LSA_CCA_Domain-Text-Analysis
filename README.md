@@ -17,25 +17,25 @@ This is the implementation of combining LSA and CCA methods for analyzing domain
 
 ### Functions
 
-1. Given sufficient documents from one domain, this code can check:
-  1) Most changed words (compared with the universal word embedding)
-  1) Most closed words to any target word in the domain
+#### Given sufficient documents from one domain, this code can check:
+	1) Most changed words (compared with the universal word embedding)	
+	2) Most closed words to any target word in the domain
   
-2. Given sufficient documents from two domains, this code can check:
-  1) Most changed words (compared between two domains' representations)
-  2) Most closed words to any target in each domain.
+#### Given sufficient documents from two domains, this code can check:
+  	1) Most changed words (compared between two domains' representations)
+  	2) Most closed words to any target in each domain.
 
 ### Prerequisites
 
 This software is implemented in Python3. You may need install the following packages:
 
-Numpy 
-scipy
-h5py
-nltk
-sklearn
-joblib
-genism
+	Numpy 
+	scipy
+	h5py
+	nltk
+	sklearn
+	joblib
+	genism
 
 You may also need to download the Glove word embedding 
 * [Glove Embedding](https://nlp.stanford.edu/projects/glove/) - Used as the universal word embedding.
